@@ -1,0 +1,50 @@
+/* Apply full-screen background */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("img/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Container styling */
+.container {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 70px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px #fc0303;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Input and button styling */
+input, button {
+    width: 100%;
+    padding: 30px;
+    margin-top: 10px;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+input {
+    font-size: 20px; /* Increases text size */
+    text-align: center; /* Centers the text inside the input box */
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+button {
+    background: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
